@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.easychat.ChatActivity;
 import com.example.easychat.R;
 import com.example.easychat.model.UserModel;
 import com.example.easychat.utils.AndroidUtil;
@@ -45,13 +46,13 @@ public class SearchUserRecyclerAdapter extends FirestoreRecyclerAdapter<UserMode
 //                    }
 //                });
 //
-//        holder.itemView.setOnClickListener(v -> {
-//            //navigate to chat activity
-//            Intent intent = new Intent(context, ChatActivity.class);
-//            AndroidUtil.passUserModelAsIntent(intent,model);
-//            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//            context.startActivity(intent);
-//        });
+        holder.itemView.setOnClickListener(v -> {
+            //navigate to chat activity
+            Intent intent = new Intent(context, ChatActivity.class);
+            AndroidUtil.passUserModelAsIntent(intent,model);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(intent);
+        });
     }
 
     @NonNull
