@@ -38,13 +38,13 @@ public class SearchUserRecyclerAdapter extends FirestoreRecyclerAdapter<UserMode
             holder.usernameText.setText(model.getUsername()+" (Me)");
         }
 
-//        FirebaseUtil.getOtherProfilePicStorageRef(model.getUserId()).getDownloadUrl()
-//                .addOnCompleteListener(t -> {
-//                    if(t.isSuccessful()){
-//                        Uri uri  = t.getResult();
-//                        AndroidUtil.setProfilePic(context,uri,holder.profilePic);
-//                    }
-//                });
+        FirebaseUtil.getOtherProfilePicStorageRef(model.getUserId()).getDownloadUrl()
+                .addOnCompleteListener(t -> {
+                    if(t.isSuccessful()){
+                        Uri uri  = t.getResult();
+                        AndroidUtil.setProfilePic(context,uri,holder.profilePic);
+                    }
+                });
 //
         holder.itemView.setOnClickListener(v -> {
             //navigate to chat activity

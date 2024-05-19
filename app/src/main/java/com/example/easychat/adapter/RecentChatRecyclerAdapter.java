@@ -44,28 +44,28 @@ public class RecentChatRecyclerAdapter extends FirestoreRecyclerAdapter<Chatroom
 
                         UserModel otherUserModel = task.getResult().toObject(UserModel.class);
 
-//                        FirebaseUtil.getOtherProfilePicStorageRef(otherUserModel.getUserId()).getDownloadUrl()
-//                                .addOnCompleteListener(t -> {
-//                                    if(t.isSuccessful()){
-//                                        Uri uri  = t.getResult();
-//                                        AndroidUtil.setProfilePic(context,uri,holder.profilePic);
-//                                    }
-//                                });
+                        FirebaseUtil.getOtherProfilePicStorageRef(otherUserModel.getUserId()).getDownloadUrl()
+                                .addOnCompleteListener(t -> {
+                                    if(t.isSuccessful()){
+                                        Uri uri  = t.getResult();
+                                        AndroidUtil.setProfilePic(context,uri,holder.profilePic);
+                                    }
+                                });
 //
-//                        holder.usernameText.setText(otherUserModel.getUsername());
-//                        if(lastMessageSentByMe)
-//                            holder.lastMessageText.setText("You : "+model.getLastMessage());
-//                        else
-//                            holder.lastMessageText.setText(model.getLastMessage());
-//                        holder.lastMessageTime.setText(FirebaseUtil.timestampToString(model.getLastMessageTimestamp()));
-//
-//                        holder.itemView.setOnClickListener(v -> {
-//                            //navigate to chat activity
-//                            Intent intent = new Intent(context, ChatActivity.class);
-//                            AndroidUtil.passUserModelAsIntent(intent,otherUserModel);
-//                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//                            context.startActivity(intent);
-//                        });
+                        holder.usernameText.setText(otherUserModel.getUsername());
+                        if(lastMessageSentByMe)
+                            holder.lastMessageText.setText("You : "+model.getLastMessage());
+                        else
+                            holder.lastMessageText.setText(model.getLastMessage());
+                        holder.lastMessageTime.setText(FirebaseUtil.timestampToString(model.getLastMessageTimestamp()));
+
+                        holder.itemView.setOnClickListener(v -> {
+                            //navigate to chat activity
+                            Intent intent = new Intent(context, ChatActivity.class);
+                            AndroidUtil.passUserModelAsIntent(intent,otherUserModel);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            context.startActivity(intent);
+                        });
 
                     }
                 });
