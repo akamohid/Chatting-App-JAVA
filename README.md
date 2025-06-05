@@ -105,7 +105,7 @@ git push origin feature-branch
 Made by Muhammad Muntazar & Mohid Arshad ❤️
 
 GitHub: 
-@overproness (https://github.com/overproness)
+@overproness (https://github.com/overproness) &
 @akamohid(https://github.com/akamohid)
         
 Email: akamohid@gmail.com
