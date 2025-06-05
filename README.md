@@ -55,63 +55,57 @@ Built with Java and designed with a familiar WhatsApp-like interface to provide 
 git clone https://github.com/akamohid/java-chat-app.git
 cd java-chat-app
 # Open in IDE and build
+```
 
-▶️ Run the Application
-Locate the main class (e.g. Main.java)
+###▶️ Run the Application
+- Locate the main class (e.g. Main.java)
+- Run the application using your IDE or command line
+- Follow prompts to sign up, verify OTP, and begin chatting
 
-Run the application using your IDE or command line
+##📱 Usage
+###✅ Sign-Up Flow
+- Launch the app
+- Enter your phone number
+- Receive and input OTP
+- Set your username
 
-Follow prompts to sign up, verify OTP, and begin chatting
+###🔐 Login
+- Enter phone number
+- Enter received OTP
 
-📱 Usage
-✅ Sign-Up Flow
-Launch the app
+###💬 Messaging
+- Use search to find users
+- Select one and start chatting
+- Chats appear on home screen
 
-Enter your phone number
+###🧾 Profile 
+- Click Profile from the menu bar
+- Upload a profile picture
+- Log out from the profile view
 
-Receive and input OTP
-
-Set your username
-
-🔐 Login
-Enter phone number
-
-Enter received OTP
-
-💬 Messaging
-Use search to find users
-
-Select one and start chatting
-
-Chats appear on home screen
-
-🧾 Profile
-Click Profile from the menu bar
-
-Upload a profile picture
-
-Log out from the profile view
-
-🤝 Contributing
+###🤝 Contributing
 We welcome contributions!
+- Fork this repo
 
-Fork this repo
-
-Create a new branch:
+- Create a new branch:
+```
 git checkout -b feature-branch
-
-Commit your changes:
+```
+- Commit your changes:
+```
 git commit -am 'Add new feature'
-
-Push to GitHub:
+```
+- Push to GitHub:
+```
 git push origin feature-branch
+```
+- Open a Pull Request
 
-Open a Pull Request
-
-📞 Contact
-Made with ❤️ by Mohid Arshad
-GitHub: @akamohid
+###📞 Contact
+Made by Muhammad Muntazar & Mohid Arshad ❤️
+GitHub: @overproness (https://github.com/overproness)
+        @akamohid(https://github.com/akamohid)
 Email: akamohid@gmail.com
 
-📄 License
+###📄 License
 This project is licensed under the MIT License.
