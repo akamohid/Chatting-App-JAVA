@@ -57,33 +57,33 @@ cd java-chat-app
 # Open in IDE and build
 ```
 
-###▶️ Run the Application
+### ▶️ Run the Application
 - Locate the main class (e.g. Main.java)
 - Run the application using your IDE or command line
 - Follow prompts to sign up, verify OTP, and begin chatting
 
-##📱 Usage
-###✅ Sign-Up Flow
+## 📱 Usage
+### ✅ Sign-Up Flow
 - Launch the app
 - Enter your phone number
 - Receive and input OTP
 - Set your username
 
-###🔐 Login
+### 🔐 Login
 - Enter phone number
 - Enter received OTP
 
-###💬 Messaging
+### 💬 Messaging
 - Use search to find users
 - Select one and start chatting
 - Chats appear on home screen
 
-###🧾 Profile 
+### 🧾 Profile 
 - Click Profile from the menu bar
 - Upload a profile picture
 - Log out from the profile view
 
-###🤝 Contributing
+### 🤝 Contributing
 We welcome contributions!
 - Fork this repo
 
@@ -101,11 +101,11 @@ git push origin feature-branch
 ```
 - Open a Pull Request
 
-###📞 Contact
+### 📞 Contact
 Made by Muhammad Muntazar & Mohid Arshad ❤️
 GitHub: @overproness (https://github.com/overproness)
         @akamohid(https://github.com/akamohid)
 Email: akamohid@gmail.com
 
-###📄 License
+### 📄 License
 This project is licensed under the MIT License.
