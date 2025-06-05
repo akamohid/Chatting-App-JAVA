@@ -1,82 +1,117 @@
-# Java Chat Application
+# 💬 Java Chat Application
 
-## Overview
-This Java Chat Application allows users to sign up and log in using their phone numbers, receive an OTP for authentication, search for other users, send and receive messages, and manage their profiles. The user interface is designed to resemble WhatsApp's home screen for a familiar and intuitive experience.
+## 📌 Overview
 
-## Features
+A WhatsApp-style Java desktop chat application that supports secure OTP-based login, real-time messaging, user search, and profile management.
 
-### Sign Up & Login:
-- **Sign Up using a phone number**
-- **Receive an OTP** on the provided phone number
-- **Enter the OTP** to verify and log in
-- During sign-up, users are prompted to **set a username**
+Built with Java and designed with a familiar WhatsApp-like interface to provide a clean, intuitive user experience.
 
-### Messaging:
-- **Search for users** to initiate a chat
-- **Select a user** to send a message
-- Users you message appear on the **home screen**
-- Receive **notifications** for incoming messages
+---
 
-### User Interface:
-- The **home screen** displays recent chats like WhatsApp
-- **Menu bar** with Profile and Chat options
+## 🚀 Features
 
-### Profile Management:
-- **Set or update your profile picture**
-- **Log out** from the application
+### 🔐 Sign Up & Login
 
-## Installation
+- 📱 Sign up with your phone number
+- 🔑 Receive OTP and verify to log in
+- 🧾 Choose a username during sign-up
+- 🔁 Auto log in on verified OTP entry
 
-### Prerequisites:
-- Java Development Kit (JDK) installed on your system
-- An Integrated Development Environment (IDE) like Eclipse or IntelliJ IDEA
+### 💬 Messaging
 
+- 🔍 Search other users by name
+- 💌 Start one-to-one chat instantly
+- 🕘 See recent chats on home screen
+- 🔔 Get notifications for new messages
 
-### Build the Project:
-- Open the project in your preferred IDE.
-- Ensure all dependencies are resolved.
-- Build the project to generate the executable.
+### 🧑‍💼 Profile Management
 
+- 🖼 Set or update your profile picture
+- 🚪 Log out from the menu bar
 
-### Run the Application:
-- Run the main class to start the application.
-- Follow the on-screen instructions to sign up or log in.
+### 🖥 User Interface
 
-## Usage
+- 📜 WhatsApp-style home screen
+- 🧭 Menu bar with "Profile" and "Chat"
+- 🟢 Simple and responsive GUI
 
-### Sign Up:
-- Open the application.
-- Enter your phone number in the sign-up section.
-- Receive the OTP on your phone.
-- Enter the OTP in the application.
-- Set your username when prompted.
+---
 
-### Login:
-- Enter your phone number in the login section.
-- Receive the OTP on your phone.
-- Enter the OTP to log in.
+## 🛠 Installation
 
-### Messaging:
-- Use the search feature to find other users.
-- Select a user from the search results.
-- Send a message to the selected user.
-- Recent chats will appear on the home screen.
-- Receive notifications for new messages.
+### ✅ Prerequisites
 
-### Profile Management:
-- Click on the Profile button in the menu bar.
-- Update your profile picture.
-- Log out from the profile section if needed.
+- Java JDK 8+ installed
+- IDE like IntelliJ IDEA or Eclipse
 
-## Contributing:
-- Fork the repository.
-- Create a new branch (git checkout -b feature-branch).
-- Commit your changes (git commit -am 'Add new feature').
-- Push to the branch (git push origin feature-branch).
-- Create a new Pull Request.
+### 🔧 Build Instructions
 
-## License:
+1. Clone or download the repository
+2. Open in your preferred IDE
+3. Resolve any missing libraries
+4. Build the project
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+```bash
+git clone https://github.com/akamohid/java-chat-app.git
+cd java-chat-app
+# Open in IDE and build
 
+▶️ Run the Application
+Locate the main class (e.g. Main.java)
 
+Run the application using your IDE or command line
+
+Follow prompts to sign up, verify OTP, and begin chatting
+
+📱 Usage
+✅ Sign-Up Flow
+Launch the app
+
+Enter your phone number
+
+Receive and input OTP
+
+Set your username
+
+🔐 Login
+Enter phone number
+
+Enter received OTP
+
+💬 Messaging
+Use search to find users
+
+Select one and start chatting
+
+Chats appear on home screen
+
+🧾 Profile
+Click Profile from the menu bar
+
+Upload a profile picture
+
+Log out from the profile view
+
+🤝 Contributing
+We welcome contributions!
+
+Fork this repo
+
+Create a new branch:
+git checkout -b feature-branch
+
+Commit your changes:
+git commit -am 'Add new feature'
+
+Push to GitHub:
+git push origin feature-branch
+
+Open a Pull Request
+
+📞 Contact
+Made with ❤️ by Mohid Arshad
+GitHub: @akamohid
+Email: akamohid@gmail.com
+
+📄 License
+This project is licensed under the MIT License.
