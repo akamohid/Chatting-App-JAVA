@@ -103,8 +103,11 @@ git push origin feature-branch
 
 ### 📞 Contact
 Made by Muhammad Muntazar & Mohid Arshad ❤️
-GitHub: @overproness (https://github.com/overproness)
-        @akamohid(https://github.com/akamohid)
+
+GitHub: 
+@overproness (https://github.com/overproness)
+@akamohid(https://github.com/akamohid)
+        
 Email: akamohid@gmail.com
 
 ### 📄 License
