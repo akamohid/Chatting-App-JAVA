@@ -110,5 +110,7 @@ GitHub:
         
 Email: akamohid@gmail.com
 
+LinkedIn: [akamohid](https://www.linkedin.com/in/akamohid/)  
+
 ### 📄 License
 This project is licensed under the MIT License.
